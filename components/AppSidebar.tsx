@@ -1,4 +1,5 @@
 import {
+	ArrowLeftRight,
 	Calendar,
 	ChartLine,
 	ChevronDown,
@@ -40,8 +41,18 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collap
 const items = [
 	{
 		title: "Home",
-		url: "#",
+		url: "/",
 		icon: Home,
+	},
+	{
+		title: "Payments",
+		url: "/payments",
+		icon: ArrowLeftRight,
+	},
+	{
+		title: "Users",
+		url: "/users",
+		icon: User2,
 	},
 	{
 		title: "Inbox",
